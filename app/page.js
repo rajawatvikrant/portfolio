@@ -15,8 +15,8 @@ function Home() {
           <Image
            src={coder} 
            alt="Coder GIF"
-           width={250} 
-           height={250} 
+           width={200} 
+           height={200} 
           />
           </div>
           <p className="bg-clip-text text-transparent drop-shadow-2xl pb-1.5 bg-gradient-to-b from-white/80 to-white/20">&lt; Vikrant Rajawat /&gt; </p>
