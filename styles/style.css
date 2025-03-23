@@ -1,0 +1,53 @@
+.custom-container {
+  max-width: 1440px;
+  padding: 0 20px;
+}
+
+.homeAnimation {
+  animation: homeAnimation 700ms linear;
+  transform: scale(10);
+}
+
+.homeAnimation img {
+  animation: blurHide 300ms linear;
+  display: none;
+}
+
+.intro-sec{
+  background-image: radial-gradient(transparent,#0a0a0a), url(../public/images/bg1.jpg);
+  
+}
+
+.skillItem {
+  background: transparent;
+  box-shadow: 0 0 15px 5px #00000045;
+  border: 1px solid #ffffff57;
+}
+
+/* .profileTooltip::before {
+  content: "Click me!!";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+} */
+
+@keyframes homeAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(10);
+  }
+}
+
+@keyframes blurHide {
+  0% {
+    opacity: (1);
+  }
+  100% {
+    opacity: (0);
+    display: none;
+  }
+}
